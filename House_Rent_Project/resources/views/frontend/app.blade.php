@@ -1,0 +1,5 @@
+@include('frontend.includes.header-link')
+@include('frontend.includes.header')
+@yield('mainContent')
+@include('frontend.includes.footer')
+@include('frontend.includes.footer-script')

@@ -1,0 +1,5 @@
+@include('admin.includes.header-link')
+@include('admin.includes.sidebar')
+@yield('mainContent')
+@include('admin.includes.footer')
+@include('admin.includes.footer-script')
